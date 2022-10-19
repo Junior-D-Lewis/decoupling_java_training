@@ -16,7 +16,7 @@ public class ComputerPlayer implements Player{
 
     @Override
     public void respond(boolean lowerOrGreater) {
-        final Logger logger = LoggerFactory.getLogger("player");
+        final Logger logger = LoggerFactory.getLogger("ComputerPlayer");
         if (lowerOrGreater){
             logger.log("plus grand ou plus petit");
         }else {

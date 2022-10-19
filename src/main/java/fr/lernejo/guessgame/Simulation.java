@@ -50,15 +50,18 @@ public class Simulation {
                 if (numbers[index] < this.numberToGuess){
                     lowerOrGreater = true;
                     first = index + 1;
+                    player.respond(lowerOrGreater);
                     return !lowerOrGreater;
                 }else if(numbers[index] == this.numberToGuess){
                     lowerOrGreater = false;
+                    player.respond(lowerOrGreater);
                     return !lowerOrGreater;
                 }else{
                     lowerOrGreater = true;
                     last = index - 1;
                 }
                 index = (int)(first + last)/2;
+                player.respond(lowerOrGreater);
                 return !lowerOrGreater;
             }
         }
@@ -80,6 +83,6 @@ public class Simulation {
         }
         SimpleDateFormat sdf = new SimpleDateFormat("mm:ss.SSS");
         String formatted = sdf.format(new Date(timestampMSAtEnd - timestampMSAtStart));
-        System.out.println("Temps écoulé: " + formatted);
+        logger.log("Temps écoulé: " + formatted);
     }
 }

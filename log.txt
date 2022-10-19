@@ -1,0 +1,5 @@
+2022-10-20 01:09:22.706 ComputerPlayer plus grand ou plus petit
+2022-10-20 01:09:22.741 ComputerPlayer plus grand ou plus petit
+2022-10-20 01:09:22.742 ComputerPlayer Egal, vous avez réussit
+2022-10-20 01:09:22.743 simulation Bravo! vous avez trouvé la bonne solution
+2022-10-20 01:09:22.796 simulation Temps écoulé: 00:00.062

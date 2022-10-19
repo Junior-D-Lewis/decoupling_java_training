@@ -31,6 +31,6 @@ public class HumanPlayer implements  Player{
             logger.log("Egal");
         }
     }
-    private final Logger logger = LoggerFactory.getLogger("player");
+    private final Logger logger = LoggerFactory.getLogger("HumanPlayer");
 
 }
