@@ -16,6 +16,6 @@ public class ContextualLogger implements Logger{
     }
 
     private final String callerClass;
-    private Logger delegateLogger;
+    private final Logger delegateLogger;
 
 }

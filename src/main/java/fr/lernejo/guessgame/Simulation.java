@@ -11,7 +11,7 @@ public class Simulation {
 
     private final Logger logger = LoggerFactory.getLogger("simulation");
     private final Player player;  //TODO add variable type
-    private static long numberToGuess; //TODO add variable type
+    private long numberToGuess; //TODO add variable type
     private boolean lowerOrGreater;
     public int[] numbers = new int[100];
     private long first = 0;
