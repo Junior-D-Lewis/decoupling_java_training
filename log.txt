@@ -1,13 +1,2 @@
-2022-10-20 01:27:22.730 ComputerPlayer plus grand ou plus petit
-2022-10-20 01:27:22.738 ComputerPlayer plus grand ou plus petit
-2022-10-20 01:27:22.740 ComputerPlayer plus grand ou plus petit
-2022-10-20 01:27:22.742 ComputerPlayer plus grand ou plus petit
-2022-10-20 01:27:22.744 ComputerPlayer Egal, vous avez réussit
-2022-10-20 01:27:22.746 simulation Bravo! vous avez trouvé la bonne solution
-2022-10-20 01:27:22.803 simulation Temps écoulé: 00:00.074
-2022-10-20 01:27:52.532 ComputerPlayer plus grand ou plus petit
-2022-10-20 01:27:52.538 ComputerPlayer plus grand ou plus petit
-2022-10-20 01:27:52.540 ComputerPlayer plus grand ou plus petit
-2022-10-20 01:27:52.541 ComputerPlayer Egal, vous avez réussit
-2022-10-20 01:27:52.544 simulation Bravo! vous avez trouvé la bonne solution
-2022-10-20 01:27:52.598 simulation Temps écoulé: 00:00.075
+2022-10-20 01:46:13.073 simulation Bravo! vous avez trouvé la bonne solution
+2022-10-20 01:46:13.137 simulation Temps écoulé: 00:00.070
