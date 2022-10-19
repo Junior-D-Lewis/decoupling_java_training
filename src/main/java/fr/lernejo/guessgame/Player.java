@@ -2,6 +2,7 @@ package fr.lernejo.guessgame;
 
 public interface Player {
 
+    long askNextGuess(long first, long lass);
     long askNextGuess();
 
     /**

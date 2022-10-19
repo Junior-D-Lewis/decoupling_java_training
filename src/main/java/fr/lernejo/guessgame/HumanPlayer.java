@@ -7,20 +7,30 @@ import java.util.Scanner;
 public class HumanPlayer implements  Player{
 
     @Override
+    public long askNextGuess(long first, long lass) {
+        return 0;
+    }
+
+    @Override
     public long askNextGuess() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Veuillez deviner: ");
-        return sc.nextLong();
+        logger.log("Veuillez deviner: ");
+        try {
+            return sc.nextLong();
+        }catch (NumberFormatException e){
+            logger.log(e.getMessage());
+        }
+        return 0;
     }
 
     @Override
     public void respond(boolean lowerOrGreater) {
-        final Logger logger = LoggerFactory.getLogger("player");
         if (lowerOrGreater){
             logger.log("plus grand ou plus petit");
         }else {
-            logger.log("Egal, vous avez réussit");
+            logger.log("Egal");
         }
-
     }
+    private final Logger logger = LoggerFactory.getLogger("player");
+
 }
